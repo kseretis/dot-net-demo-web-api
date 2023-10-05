@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace dot_net_demo_web_api.Controllers
+namespace dot_net_demo_web_api.Todo
 {
     [ApiController]
     [Route("[controller]")]
@@ -21,7 +21,7 @@ namespace dot_net_demo_web_api.Controllers
             {
                 Id = index,
                 Name = "Test" + Random.Shared.Next(-20, 50),
-                IsComplete = false
+                IsComplete = false  
             })
             .ToArray();
         }

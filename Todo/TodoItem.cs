@@ -1,4 +1,4 @@
-﻿namespace dot_net_demo_web_api
+﻿namespace dot_net_demo_web_api.Todo
 {
     public class TodoItem
     {
